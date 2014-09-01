@@ -11,7 +11,6 @@ install:
   - pip install --quiet -r dev-requirements.txt
 before_script:
   - psql -c 'create database "python.org";' -U postgres
-
 script:
   - coverage run manage.py test
   - coverage report --fail-under=85
