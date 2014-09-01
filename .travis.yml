@@ -5,7 +5,6 @@ env:
   - DATABASE_URL=postgres://postgres:@127.0.0.1:5432/python.org
 before_install:
   - sudo apt-get update -qq
-
 install:
   - pip install --quiet --upgrade pip
   - pip install --quiet -r requirements.txt
