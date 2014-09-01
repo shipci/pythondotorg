@@ -1,11 +1,8 @@
 language: python
-
 python:
   - "3.3"
-
 env:
   - DATABASE_URL=postgres://postgres:@127.0.0.1:5432/python.org
-
 before_install:
   - sudo apt-get update -qq
 
