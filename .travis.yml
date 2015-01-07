@@ -5,7 +5,7 @@ python:
 
 env:
   - DATABASE_URL=postgres://postgres:@127.0.0.1:5432/python.org
-
+build_image: shippable/minv2:beta 
 before_install:
   - sudo apt-get update -qq
 
